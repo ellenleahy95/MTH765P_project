@@ -1,0 +1,133 @@
+Day,Date,Time,Home,xG,Score,xG,Away,Attendance,Venue,Referee,Match Report,Notes
+Sat,2019-09-07,15:00,Manchester City,0.5,1–0,1.1,Manchester Utd,31213,Etihad Stadium,Rebecca Welch,Match Report,
+Sat,2019-09-07,15:00,Bristol City,0.4,0–0,2.1,Brighton,3041,Stoke Gifford Stadium,Abigail Bryne,Match Report,
+Sun,2019-09-08,12:30,Chelsea,1.3,1–0,0.3,Tottenham,24564,Stamford Bridge,Jack Packman,Match Report,
+Sun,2019-09-08,14:00,Birmingham City,0.7,0–1,0.8,Everton,873,Damson Park,Elliot Swallow,Match Report,
+Sun,2019-09-08,14:00,Liverpool,0.5,0–1,1.0,Reading,1445,Prenton Park,Samuel Barrott,Match Report,
+Sun,2019-09-08,14:30,Arsenal,2.6,2–1,0.8,West Ham,1795,Meadow Park,Stacey Pearson,Match Report,
+Sun,2019-09-15,12:30,Reading,0.2,0–2,2.3,Manchester City,897,Adams Park,Stacey Pearson,Match Report,
+Sun,2019-09-15,12:30,Everton,1.4,2–0,1.0,Bristol City,441,Haig Avenue,Amy Fearn,Match Report,
+Sun,2019-09-15,14:00,Tottenham,1.6,1–0,0.3,Liverpool,996,The Hive Stadium,Ryan Atkin,Match Report,
+Sun,2019-09-15,14:00,Brighton,0.4,1–1,1.7,Chelsea,1352,Checkatrade.com Stadium,Lee Collins,Match Report,
+Sun,2019-09-15,15:00,West Ham,1.4,1–0,0.9,Birmingham City,1297,Rush Green Stadium,Paul Howard,Match Report,
+Mon,2019-09-16,19:30,Manchester Utd,0.6,0–1,1.9,Arsenal,2530,Leigh Sports Village Stadium,Abigail Bryne,Match Report,
+Sat,2019-09-28,12:00,Manchester Utd,3.2,2–0,0.5,Liverpool,2813,Leigh Sports Village Stadium,Lucy Oliver,Match Report,
+Sun,2019-09-29,12:30,Arsenal,1.5,4–0,0.1,Brighton,1607,Meadow Park,Elliot Swallow,Match Report,
+Sun,2019-09-29,12:30,Everton,0.6,0–1,1.5,Manchester City,378,Meadow Park,Lewis Smith,Match Report,
+Sun,2019-09-29,14:30,West Ham,2.1,0–2,0.9,Tottenham,24790,Rush Green Stadium,Abigail Bryne,Match Report,
+Sun,2019-09-29,15:00,Bristol City,0.0,0–4,2.9,Chelsea,986,Stoke Gifford Stadium,Lisa Benn,Match Report,
+Sat,2019-10-12,14:00,Manchester City,3.5,3–0,0.3,Birmingham City,1834,Academy Stadium,Helen Conley,Match Report,
+Sun,2019-10-13,12:00,Liverpool,1.5,1–1,0.3,Bristol City,924,Prenton Park,Martin Woods,Match Report,
+Sun,2019-10-13,12:30,Tottenham,0.8,0–3,3.0,Manchester Utd,1299,The Hive Stadium,Kirsty Dowle,Match Report,
+Sun,2019-10-13,14:00,Brighton,2.0,1–3,2.2,West Ham,849,Checkatrade.com Stadium,Lisa Benn,Match Report,
+Sun,2019-10-13,14:00,Reading,1.8,3–2,2.3,Everton,616,Adams Park,Alan Dale,Match Report,
+Sun,2019-10-13,15:00,Chelsea,1.4,2–1,0.4,Arsenal,4149,Cherry Red Records Fans' Stadium,Rebecca Welch,Match Report,
+Sun,2019-10-27,12:30,Everton,0.8,2–0,1.6,Brighton,331,Haig Avenue,Jane Simms,Match Report,
+Sun,2019-10-27,12:30,Manchester Utd,0.9,2–0,0.4,Reading,1997,Leigh Sports Village Stadium,Helen Conley,Match Report,
+Sun,2019-10-27,14:00,Birmingham City,0.9,2–0,0.5,Liverpool,1056,Damson Park,Lisa Benn,Match Report,
+Sun,2019-10-27,14:30,Arsenal,1.1,1–0,0.3,Manchester City,2424,Meadow Park,Rebecca Welch,Match Report,
+Sun,2019-10-27,15:00,Bristol City,0.7,1–2,2.2,Tottenham,639,Stoke Gifford Stadium,Daniel Lamport,Match Report,
+Sun,2019-10-27,15:00,West Ham,1.6,1–3,1.7,Chelsea,2122,Rush Green Stadium,Rob Whitton,Match Report,
+Sun,2019-11-17,12:30,Manchester City,3.0,5–0,0.7,West Ham,2145,Academy Stadium,Stacey Pearson,Match Report,
+Sun,2019-11-17,14:00,Reading,3.6,3–3,1.4,Bristol City,1420,Adams Park,Kirsty Dowle,Match Report,
+Sun,2019-11-17,14:00,Brighton,2.4,3–0,0.5,Birmingham City,4130,Checkatrade.com Stadium,Helen Conley,Match Report,
+Sun,2019-11-17,14:00,Chelsea,1.5,1–0,0.4,Manchester Utd,4790,Cherry Red Records Fans' Stadium,Jack Packman,Match Report,
+Sun,2019-11-17,15:00,Tottenham,0.7,0–2,1.4,Arsenal,38262,The Hive Stadium,Abigail Bryne,Match Report,
+Sun,2019-11-17,15:00,Liverpool,0.9,0–1,0.9,Everton,23500,Prenton Park,Amy Fearn,Match Report,
+Sun,2019-11-24,12:00,Manchester Utd,4.5,4–0,0.1,Brighton,1707,Leigh Sports Village Stadium,Steven Copeland,Match Report,
+Sun,2019-11-24,12:30,Bristol City,1.1,0–5,1.9,Manchester City,1212,Stoke Gifford Stadium,Lucy Oliver,Match Report,
+Sun,2019-11-24,12:30,Everton,2.1,3–1,0.6,Tottenham,150,Walton Hall Park,Michael Barlow,Match Report,
+Sun,2019-11-24,14:00,Arsenal,1.2,1–0,0.4,Liverpool,2017,Meadow Park,Elizabeth Simms,Match Report,
+Sun,2019-11-24,14:45,Birmingham City,0.2,0–6,2.7,Chelsea,1159,Damson Park,Richard Walker,Match Report,
+Sun,2019-11-24,15:00,West Ham,0.9,2–3,1.3,Reading,1392,Rush Green Stadium,Lloyd Wood,Match Report,
+Fri,2019-11-29,19:45,Brighton,1.2,2–2,1.7,Reading,510,Checkatrade.com Stadium,Matthew Russell,Match Report,
+Sun,2019-12-01,12:30,Arsenal,8.3,11–1,1.1,Bristol City,1513,Meadow Park,Helen Conley,Match Report,
+Sun,2019-12-01,14:00,Manchester City,1.5,1–0,1.1,Liverpool,2293,Academy Stadium,Kirsty Dowle,Match Report,
+Sun,2019-12-01,15:00,West Ham,0.4,3–2,1.2,Manchester Utd,1736,Rush Green Stadium,Amy Fearn,Match Report,
+Wed,2019-12-04,19:30,Birmingham City,0.8,1–1,1.8,Tottenham,304,Damson Park,Jane Simms,Match Report,
+Sun,2019-12-08,12:00,Chelsea,2.4,2–1,0.6,Manchester City,3498,Cherry Red Records Fans' Stadium,Amy Fearn,Match Report,
+Sun,2019-12-08,12:00,Manchester Utd,2.2,3–1,0.6,Everton,1805,Leigh Sports Village Stadium,Joe Hull,Match Report,
+Sun,2019-12-08,14:00,Tottenham,2.0,1–0,0.8,Brighton,571,The Hive Stadium,Emily Heaslip,Match Report,
+Sun,2019-12-08,14:00,Liverpool,1.9,1–1,1.0,West Ham,565,Prenton Park,Peter Gibbons,Match Report,
+Sun,2019-12-08,14:30,Reading,1.4,0–3,1.7,Arsenal,943,Adams Park,Richard Holme,Match Report,
+Sun,2019-12-08,15:00,Bristol City,0.4,0–2,0.6,Birmingham City,404,Stoke Gifford Stadium,Samuel Allison,Match Report,
+Sun,2019-12-15,12:30,Manchester City,3.6,5–0,0.4,Brighton,1173,Academy Stadium,Lucy Oliver,Match Report,
+Sun,2019-12-15,12:30,Everton,0.7,1–3,3.5,Arsenal,451,Walton Hall Park,Ben Speedie,Match Report,
+Sun,2019-12-15,14:00,Reading,4.3,3–1,0.4,Tottenham,715,Adams Park,Stacey Pearson,Match Report,
+Sun,2019-12-15,14:00,Liverpool,0.5,1–1,2.9,Chelsea,540,Prenton Park,Louise Saunders,Match Report,
+Sun,2020-01-05,12:00,Manchester Utd,2.4,0–1,0.2,Bristol City,2021,Leigh Sports Village Stadium,Lucy Oliver,Match Report,
+Sun,2020-01-05,12:30,Chelsea,4.0,3–1,1.3,Reading,2828,Cherry Red Records Fans' Stadium,Stacey Pearson,Match Report,
+Sun,2020-01-05,14:00,Brighton,0.7,1–0,1.1,Liverpool,947,Checkatrade.com Stadium,Amy Fearn,Match Report,
+Sun,2020-01-05,14:00,Tottenham,1.3,1–4,3.9,Manchester City,1056,The Hive Stadium,Helen Conley,Match Report,
+Sun,2020-01-05,14:00,Arsenal,2.7,2–0,0.3,Birmingham City,2106,Meadow Park,Elizabeth Simms,Match Report,
+Sat,2020-01-11,17:30,Manchester City,3.1,3–1,0.2,Everton,1681,Academy Stadium,Amy Fearn,Match Report,
+Sun,2020-01-12,12:00,Liverpool,,,,Manchester Utd,,Prenton Park,,Match Report,Match Cancelled
+Sun,2020-01-12,12:30,Brighton,0.2,0–4,2.0,Arsenal,1312,Checkatrade.com Stadium,Kirsty Dowle,Match Report,
+Sun,2020-01-12,14:00,Chelsea,5.2,6–1,0.3,Bristol City,2866,Cherry Red Records Fans' Stadium,Emily Heaslip,Match Report,
+Sun,2020-01-12,14:00,Tottenham,1.2,2–1,0.5,West Ham,855,The Hive Stadium,Lucy Oliver,Match Report,
+Sun,2020-01-12,14:00,Reading,1.2,1–0,0.6,Birmingham City,733,Adams Park,Tom Bishop,Match Report,
+Sun,2020-01-19,12:00,Manchester Utd,2.7,3–0,0.9,Tottenham,1836,Leigh Sports Village Stadium,Edward Duckworth,Match Report,
+Sun,2020-01-19,12:00,Birmingham City,0.2,0–2,2.9,Manchester City,1197,Damson Park,Helen Conley,Match Report,
+Sun,2020-01-19,14:00,Everton,2.0,3–1,1.1,Reading,,Walton Hall Park,Peter Shacklady,Match Report,
+Sun,2020-01-19,14:00,Arsenal,0.7,1–4,2.2,Chelsea,4000,Meadow Park,Abigail Bryne,Match Report,
+Sun,2020-01-19,15:00,Bristol City,1.3,0–1,1.4,Liverpool,1007,Stoke Gifford Stadium,Savvas Yianni,Match Report,
+Sun,2020-01-19,15:00,West Ham,1.8,2–1,2.1,Brighton,1799,Rush Green Stadium,Ryan Atkin,Match Report,
+Sun,2020-02-02,12:00,Liverpool,,,,Birmingham City,,Prenton Park,,Match Report,Match Cancelled
+Sun,2020-02-02,14:00,Reading,1.8,1–1,0.4,Manchester Utd,1256,Adams Park,Kirsty Dowle,Match Report,
+Sun,2020-02-02,14:00,Chelsea,6.5,8–0,0.2,West Ham,3304,Cherry Red Records Fans' Stadium,Amy Fearn,Match Report,
+Sun,2020-02-02,14:00,Manchester City,0.5,2–1,2.1,Arsenal,3664,Academy Stadium,Stacey Pearson,Match Report,
+Sun,2020-02-02,14:00,Brighton,1.2,1–0,0.6,Everton,830,Checkatrade.com Stadium,Abigail Bryne,Match Report,
+Sun,2020-02-09,14:00,Birmingham City,,,,Brighton,,Damson Park,,Match Report,Match Cancelled
+Sun,2020-02-09,15:00,Bristol City,,,,Reading,,Stoke Gifford Stadium,,Match Report,Match Cancelled
+Wed,2020-02-12,19:00,Chelsea,2.1,2–0,0.1,Birmingham City,1928,Cherry Red Records Fans' Stadium,Rob Whitton,Match Report,
+Wed,2020-02-12,19:00,Manchester City,1.1,1–0,0.1,Bristol City,858,Academy Stadium,Edward Duckworth,Match Report,
+Wed,2020-02-12,19:30,Tottenham,0.9,2–2,1.7,Everton,388,The Hive Stadium,Lisa Benn,Match Report,
+Wed,2020-02-12,19:30,Reading,2.0,2–0,0.0,West Ham,573,Adams Park,Abigail Bryne,Match Report,
+Wed,2020-02-12,19:45,Brighton,2.1,1–1,0.6,Manchester Utd,905,Checkatrade.com Stadium,Savvas Yianni,Match Report,
+Thu,2020-02-13,19:00,Liverpool,0.8,2–3,1.9,Arsenal,660,Prenton Park,Rebecca Welch,Match Report,
+Sun,2020-02-23,12:30,Everton,1.4,2–3,1.3,Manchester Utd,893,Walton Hall Park,Andrew Sykes,Match Report,
+Sun,2020-02-23,14:00,Birmingham City,0.6,0–1,0.7,Bristol City,659,Damson Park,Stacey Pearson,Match Report,
+Sun,2020-02-23,14:00,Manchester City,2.6,3–3,1.2,Chelsea,3542,Academy Stadium,Rebecca Welch,Match Report,
+Sun,2020-02-23,14:00,Arsenal,,,,Reading,,Meadow Park,,Match Report,Match Cancelled
+Sun,2020-02-23,14:00,Brighton,0.6,0–1,1.2,Tottenham,964,Checkatrade.com Stadium,Louise Saunders,Match Report,
+Sun,2020-02-23,15:00,West Ham,1.6,4–2,1.5,Liverpool,1877,Rush Green Stadium,Matthew Russell,Match Report,
+Sun,2020-03-22,12:00,Manchester Utd,,,,West Ham,,Leigh Sports Village Stadium,,Match Report,Match Cancelled
+Sun,2020-03-22,14:00,Liverpool,,,,Manchester City,,Prenton Park,,Match Report,Match Cancelled
+Sun,2020-03-22,14:00,Tottenham,,,,Birmingham City,,The Hive Stadium,,Match Report,Match Cancelled
+Sun,2020-03-22,14:00,Chelsea,,,,Everton,,Cherry Red Records Fans' Stadium,,Match Report,Match Cancelled
+Sun,2020-03-22,14:00,Reading,,,,Brighton,,Adams Park,,Match Report,Match Cancelled
+Sun,2020-03-22,15:00,Bristol City,,,,Arsenal,,Stoke Gifford Stadium,,Match Report,Match Cancelled
+Wed,2020-03-25,19:00,Everton,,,,Liverpool,,Walton Hall Park,,Match Report,Match Cancelled
+Wed,2020-03-25,19:30,Birmingham City,,,,Manchester Utd,,Damson Park,,Match Report,Match Cancelled
+Sat,2020-03-28,15:00,Manchester Utd,,,,Manchester City,,Leigh Sports Village Stadium,,Match Report,Match Cancelled
+Sun,2020-03-29,12:00,West Ham,,,,Arsenal,,Rush Green Stadium,,Match Report,Match Cancelled
+Sun,2020-03-29,12:30,Everton,,,,Birmingham City,,Walton Hall Park,,Match Report,Match Cancelled
+Sun,2020-03-29,14:00,Tottenham,,,,Chelsea,,The Hive Stadium,,Match Report,Match Cancelled
+Sun,2020-03-29,14:00,Brighton,,,,Bristol City,,Checkatrade.com Stadium,,Match Report,Match Cancelled
+Sun,2020-03-29,14:00,Reading,,,,Liverpool,,Adams Park,,Match Report,Match Cancelled
+Wed,2020-04-01,19:30,West Ham,,,,Everton,,Rush Green Stadium,Robert Massey Ellis,Match Report,Match Cancelled
+Sun,2020-04-05,14:00,Birmingham City,,,,West Ham,,Damson Park,,Match Report,Match Cancelled
+Sun,2020-04-05,14:00,Liverpool,,,,Tottenham,,Prenton Park,,Match Report,Match Cancelled
+Sun,2020-04-05,14:00,Manchester City,,,,Reading,,Academy Stadium,,Match Report,Match Cancelled
+Sun,2020-04-05,14:00,Chelsea,,,,Brighton,,Cherry Red Records Fans' Stadium,,Match Report,Match Cancelled
+Sun,2020-04-05,14:00,Arsenal,,,,Manchester Utd,,Meadow Park,,Match Report,Match Cancelled
+Sun,2020-04-05,15:00,Bristol City,,,,Everton,,Stoke Gifford Stadium,,Match Report,Match Cancelled
+Sun,2020-04-19,14:00,Tottenham,,,,Bristol City,,The Hive Stadium,,Match Report,Match Cancelled
+Wed,2020-04-22,19:30,West Ham,,,,Manchester City,,Rush Green Stadium,,Match Report,Match Cancelled
+Sun,2020-04-26,12:00,Liverpool,,,,Brighton,,Prenton Park,,Match Report,Match Cancelled
+Sun,2020-04-26,12:30,Everton,,,,West Ham,,Walton Hall Park,,Match Report,Match Cancelled
+Sun,2020-04-26,14:00,Manchester City,,,,Tottenham,,Academy Stadium,,Match Report,Match Cancelled
+Sun,2020-04-26,14:00,Reading,,,,Chelsea,,Adams Park,,Match Report,Match Cancelled
+Sun,2020-04-26,14:00,Birmingham City,,,,Arsenal,,Damson Park,,Match Report,Match Cancelled
+Sun,2020-04-26,15:00,Bristol City,,,,Manchester Utd,,Stoke Gifford Stadium,,Match Report,Match Cancelled
+Sun,2020-05-03,12:30,Everton,,,,Chelsea,,Walton Hall Park,Lucy Oliver,Match Report,Match Cancelled
+Sun,2020-05-03,15:00,Bristol City,,,,West Ham,,Stoke Gifford Stadium,,Match Report,Match Cancelled
+Wed,2020-05-06,19:30,Birmingham City,,,,Reading,,Damson Park,,Match Report,Match Cancelled
+Tue,2020-05-12,19:30,Manchester Utd,,,,Chelsea,,Leigh Sports Village Stadium,,Match Report,Match Cancelled
+Wed,2020-05-13,19:30,Arsenal,,,,Tottenham,,Meadow Park,,Match Report,Match Cancelled
+Sat,2020-05-16,,Tottenham,,,,Reading,,The Hive Stadium,,Match Report,Match Cancelled
+Sat,2020-05-16,,Brighton,,,,Manchester City,,Checkatrade.com Stadium,,Match Report,Match Cancelled
+Sat,2020-05-16,,Manchester Utd,,,,Birmingham City,,Leigh Sports Village Stadium,,Match Report,Match Cancelled
+Sat,2020-05-16,,Chelsea,,,,Liverpool,,Cherry Red Records Fans' Stadium,,Match Report,Match Cancelled
+Sat,2020-05-16,,West Ham,,,,Bristol City,,Rush Green Stadium,,Match Report,Match Cancelled
+Sat,2020-05-16,,Arsenal,,,,Everton,,Meadow Park,,Match Report,Match Cancelled
