@@ -15,7 +15,7 @@ def chart_colours(N):
         colours.append(colorsys.hsv_to_rgb(*colour))
     return colours
 
-# Team top scorer v. Rank
+# Team top scorer v. Rank, coloured by season
 seasons = tables['season'].unique()
 
 colors = chart_colours(len(seasons))
