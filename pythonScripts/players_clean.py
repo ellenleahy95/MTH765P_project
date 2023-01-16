@@ -23,6 +23,8 @@ while i < len(cols):
 	elif re.search("^Per 90.", cols[i]):
 		#  Add per 90 to cols with Per 90 at the beginning
 		cols_new.append(cols_2[i] + " per 90")
+	elif cols[i] == "season":
+		cols_new.append(cols[i])
 	else:
 		# for any other we can just take the original name
 		cols_new.append(cols_2[i])
@@ -30,11 +32,14 @@ while i < len(cols):
 	cols_dict[cols[i]] = cols_new[i]
 	i += 1
 
-
 pl.rename(columns=cols_dict, inplace = True)
 
-# Drop all rows that are the columns
+# Drop all rows that are actualy a subheader
 pl = pl.drop(pl[pl.Rk == 'Rk'].index)
+
+pl['Nation'] = pl['Nation'].fillna('unknown unknown')
+
+pl['Nation'] = pl['Nation'].str.split(' ', n=1, expand=True)[1]
 
 # Output new table
 pl.to_csv("../Data/playerStats/playerStats_clean.csv", mode='w+')

@@ -2,8 +2,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import colorsys
-# from pathlib import Path
-# import re
+
+plt.rcParams.update({'font.size': 12})
 
 tables = pd.read_csv("../Data/tables/tables_clean.csv")
 
@@ -95,10 +95,11 @@ plt.savefig('../vis/tables/average_attendance.png')
 plt.close()
 
 # box and whisker plot for attendance
-ax = tables.boxplot(column=['Attendance'], by=['season'])
+tables["Att per thousand"] = tables['Attendance']/1000
+ax = tables.boxplot(column=['Att per thousand'], by=['season'])
 
 plt.title('Average Attendance Per Team Per Season')
-plt.ylabel("Team's Average Match Attendance")
+plt.ylabel("Team's Average Match Attendance (1000)")
 plt.xlabel('Season')
 plt.savefig('../vis/tables/attendance_boxwhisker.png')
 plt.close()

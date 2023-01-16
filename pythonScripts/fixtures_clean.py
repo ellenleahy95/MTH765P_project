@@ -8,7 +8,7 @@ fixtures = pd.read_csv("../Data/fixtures/fixtures_all.csv")
 
 fixtures = fixtures[fixtures['Score'].notna()]
 
-print(fixtures['Score'].head(20))
+fixtures = fixtures.rename(columns={'xG': 'xG Home Team', 'xG.1': 'xG Away Team'})
 fixtures[['Home Goals', 'Away Goals']] = fixtures['Score'].str.split('–', 1, expand=True)
 
 # Output new table

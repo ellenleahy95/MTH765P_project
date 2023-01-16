@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import colorsys
-# from pathlib import Path
-# import re
+
+plt.rcParams.update({'font.size': 12})
+
 
 pl = pd.read_csv("../Data/playerStats/playerStats_clean.csv")
 
@@ -42,7 +43,7 @@ plt.close()
 
 frwrds = pl[(pl['Pos'] == "FW") & (pl['Gls Overall'] > 0) & (pl['Min'] > 0)]
 
-plt.scatter(frwrds["Min"], frwrds["Gls Overall"])
+plt.scatter(frwrds["Min"], frwrds["Gls Overall"], c='r')
 
 plt.title('Minutes Played v Goals Scored For Forwards')
 plt.xlabel("Minutes Played")
@@ -55,7 +56,7 @@ y_vals = list(frwrds["Gls Overall"][frwrds["Gls Overall"] >= top_5_perc])
 players = list(frwrds["Player"][frwrds["Gls Overall"] >= top_5_perc])
 
 for i, txt in enumerate(players):
-    plt.annotate(txt, (x_vals[i], y_vals[i]))
+    plt.annotate(txt, (x_vals[i], y_vals[i]), ha='right')
 
 plt.savefig('../vis/playerStats/goal_minutes_forwards.png')
 plt.close()
@@ -77,8 +78,29 @@ plt.gca().invert_yaxis()
 plt.savefig('../vis/playerStats/top_scorers.png')
 plt.close()
 
+# Top scoreres per season
+scorers = pl[['Player', 'season', 'Gls Overall', 'Ast Overall']].groupby('Player') \
+						.agg({"Gls Overall": np.sum, "Ast Overall": np.sum, "season": pd.Series.nunique}).reset_index()
+
+scorers['Goals per season'] = scorers['Gls Overall']/scorers['season']
+scorers['Assists per season'] = scorers['Ast Overall']/scorers['season']
+scorers['Gls and Ast'] = scorers['Goals per season'] + scorers['Assists per season']
+
+scorers.sort_values(by=['Gls and Ast'], inplace=True, ascending=False)
+top_scorers = scorers.set_index('Player').drop(['Gls and Ast', 'Gls Overall', 'Ast Overall', 'season'], axis=1).head(10)
+
+ax = top_scorers.plot.barh(stacked=True, title="Top 10 Scorers In the WSL Per Season", color=['red','black'])
+ax.set_xlabel('Goals and Assists')
+plt.yticks(rotation=45, fontsize=6.5)
+plt.gca().invert_yaxis()
+
+plt.savefig('../vis/playerStats/top_scorers_perseason.png')
+plt.close()
+
 # histogram of nationalities
 ply_nat = pl[['Player','Nation']].drop_duplicates().dropna()
+
+ply_nat = ply_nat[ply_nat['Nation'] != 'unknown']
 
 nat = ply_nat.groupby('Nation').count().reset_index()
 
@@ -87,19 +109,22 @@ nat.sort_values('Player', ascending=False).plot.bar(x='Nation', legend=None)
 
 plt.title('Number of Players Per Country')
 plt.ylabel('Number of Players')
+plt.xlabel(None)
+# plt.set_size_inches(11.5, 1.5)
+plt.xticks(fontsize=9)
 
 plt.savefig('../vis/playerStats/nation_bar.png')
 plt.close()
 
 for index, row in nat.iterrows():
-	if row['Nation'] == "eng ENG":
+	if row['Nation'] == "ENG":
 		nat.at[index,'Nation'] = "English"
 	else:
 		nat.at[index,'Nation'] = "Non-English"
 
 nat_pie = nat.groupby('Nation').sum().reset_index()
 
-nat_pie.set_index('Nation').plot.pie(y='Player', legend=None)
+nat_pie.set_index('Nation').plot.pie(y='Player', legend=None, colors=['lightblue', 'lightcoral'], autopct='%1.1f%%')
 
 plt.savefig('../vis/playerStats/nation_pie.png')
 plt.close()
@@ -107,7 +132,7 @@ plt.close()
 # Do teams with more non-English players tend to finish higher
 team_nat = pl[['Squad','Player','Nation']].drop_duplicates().dropna()
 for index, row in team_nat.iterrows():
-	if row['Nation'] == "eng ENG":
+	if row['Nation'] == "ENG":
 		team_nat.at[index,'Nation'] = "English"
 	else:
 		team_nat.at[index,'Nation'] = "Non-English"
@@ -148,20 +173,23 @@ plt.title('Goals Scored v xG Per Player Per Season')
 plt.xlabel("xG")
 plt.ylabel('Goals Scored')
 
-plt.savefig('../vis/playerStats/linear_fit.png')
+plt.savefig('../vis/playerStats/goals_v_xg_linear_fit.png')
 plt.close()
 
 yfit = np.polyval(fit, gls_xg['xG Overall'])
 
-fig, ax = plt.subplots(1,2)
-ax[0].hist(gls_xg['Gls Overall']-yfit)
+plt.hist(gls_xg['Gls Overall']-yfit)
 
-fit2 = np.polyfit(gls_xg['xG Overall'], gls_xg['Gls Overall'], 2)
-yfit2 = np.polyval(fit2, gls_xg['xG Overall'])
-ax[1].hist(gls_xg['Gls Overall']-yfit2)
+chi_squared = np.sum(((yfit - gls_xg['Gls Overall']) ** 2)/yfit)/(len(yfit) - 1)
 
-ax[0].set_title('Residuals for Linear Fit')
-ax[1].set_title('Residuals for Quadratic Fit')
-plt.show()
+label = "Chi Squared = " + str(round(chi_squared,4))
+plt.figtext(.6, .8, label)
+
+plt.title('Residuals for Linear Fit')
+plt.xlabel("Residual value")
+plt.ylabel('Count')
+
+plt.savefig('../vis/playerStats/goals_v_xg_residuals.png')
+plt.close()
 
 
