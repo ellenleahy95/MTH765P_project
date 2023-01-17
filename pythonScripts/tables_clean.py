@@ -5,7 +5,7 @@ import re
 
 tables = pd.read_csv("../Data/tables/tables_all.csv")
 
-# Create two new columns, one for the name of the top scorer and one for the number of goals
+# Split top team scorer column by the - to create two new columns, top scorer and top scorer num goals
 tables[['Top Scorer', 'Top Scorer Num Goals']] = tables['Top Team Scorer'].str.split(' - ', 1, expand=True)
 # Remove oroginal column as no longer needed
 tables = tables.drop(['Top Team Scorer'], axis=1)
