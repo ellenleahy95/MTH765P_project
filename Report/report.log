@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.7)  17 JAN 2023 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.7)  18 JAN 2023 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,8 +404,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1681) in paragraph at lines 85--86
-\OT1/cmr/m/n/12 Minimum clean-ing was re-quired for this
+Underfull \hbox (badness 3471) in paragraph at lines 85--86
+\OT1/cmr/m/n/12 Minimal clean-ing was re-quired for this
  []
 
 
@@ -448,17 +448,16 @@ File: ../vis/tables/attendance_boxwhisker.png Graphic file (type png)
 Package pdftex.def Info: ../vis/tables/attendance_boxwhisker.png  used on input
  line 112.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-
-Underfull \vbox (badness 1502) has occurred while \output is active []
-
- [3 <../vis/tables/average_attendance.png> <../vis/tables/attendance_boxwhisker
-.png>]
-<../vis/fixtures/attendance_overtime.png, id=105, 462.528pt x 346.896pt>
+<../vis/fixtures/attendance_overtime.png, id=95, 462.528pt x 346.896pt>
 File: ../vis/fixtures/attendance_overtime.png Graphic file (type png)
 <use ../vis/fixtures/attendance_overtime.png>
 Package pdftex.def Info: ../vis/fixtures/attendance_overtime.png  used on input
  line 120.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <../vis/tables/average_attendance.png>]
 <../vis/fixtures/attendance_overtime_no_outliers.png, id=107, 831.105pt x 325.2
 15pt>
 File: ../vis/fixtures/attendance_overtime_no_outliers.png Graphic file (type pn
@@ -473,38 +472,38 @@ File: ../vis/fixtures/attendance_v_goals.png Graphic file (type png)
 Package pdftex.def Info: ../vis/fixtures/attendance_v_goals.png  used on input 
 line 140.
 (pdftex.def)             Requested size: 469.75499pt x 183.81628pt.
-<../vis/playerStats/goal_minutes.png, id=111, 462.528pt x 346.896pt>
+ [4 <../vis/tables/attendance_boxwhisker.png> <../vis/fixtures/attendance_overt
+ime.png>] [5 <../vis/fixtures/attendance_overtime_no_outliers.png> <../vis/fixt
+ures/attendance_v_goals.png>]
+<../vis/playerStats/goal_minutes.png, id=128, 462.528pt x 346.896pt>
 File: ../vis/playerStats/goal_minutes.png Graphic file (type png)
 <use ../vis/playerStats/goal_minutes.png>
 Package pdftex.def Info: ../vis/playerStats/goal_minutes.png  used on input lin
 e 150.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-
-[4 <../vis/fixtures/attendance_overtime.png>] [5 <../vis/fixtures/attendance_ov
-ertime_no_outliers.png> <../vis/fixtures/attendance_v_goals.png>]
-<../vis/playerStats/goal_minutes_forwards.png, id=132, 462.528pt x 346.896pt>
+<../vis/playerStats/goal_minutes_forwards.png, id=130, 462.528pt x 346.896pt>
 File: ../vis/playerStats/goal_minutes_forwards.png Graphic file (type png)
 <use ../vis/playerStats/goal_minutes_forwards.png>
 Package pdftex.def Info: ../vis/playerStats/goal_minutes_forwards.png  used on 
 input line 158.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-<../vis/playerStats/top_scorers.png, id=134, 462.528pt x 346.896pt>
+<../vis/playerStats/top_scorers.png, id=132, 462.528pt x 346.896pt>
 File: ../vis/playerStats/top_scorers.png Graphic file (type png)
 <use ../vis/playerStats/top_scorers.png>
 Package pdftex.def Info: ../vis/playerStats/top_scorers.png  used on input line
  166.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-<../vis/playerStats/top_scorers_perseason.png, id=135, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [6 <../vis/playerStats/goal_minutes.png> <../vis/playerStats/goal_minutes_forw
+ards.png> <../vis/playerStats/top_scorers.png>]
+<../vis/playerStats/top_scorers_perseason.png, id=143, 462.528pt x 346.896pt>
 File: ../vis/playerStats/top_scorers_perseason.png Graphic file (type png)
 <use ../vis/playerStats/top_scorers_perseason.png>
 Package pdftex.def Info: ../vis/playerStats/top_scorers_perseason.png  used on 
 input line 174.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <../vis/playerStats/goal_minutes.png> <../vis/playerStats/goal_minutes_forw
-ards.png> <../vis/playerStats/top_scorers.png>]
 <../vis/tables/average_xg.png, id=145, 462.528pt x 346.896pt>
 File: ../vis/tables/average_xg.png Graphic file (type png)
 <use ../vis/tables/average_xg.png>
@@ -527,145 +526,147 @@ File: ../vis/tables/average_xg_pergame_newaxis.png Graphic file (type png)
 Package pdftex.def Info: ../vis/tables/average_xg_pergame_newaxis.png  used on 
 input line 198.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-[7 <../vis/playerStats/top_scorers_perseason.png> <../vis/tables/average_xg.png
-> <../vis/tables/average_xg_pergame.png>]
-<../vis/fixtures/xg_matchday20.png, id=167, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [7 <../vis/playerStats/top_scorers_perseason.png> <../vis/tables/average_xg.pn
+g> <../vis/tables/average_xg_pergame.png>]
+<../vis/fixtures/xg_matchday20.png, id=166, 462.528pt x 346.896pt>
 File: ../vis/fixtures/xg_matchday20.png Graphic file (type png)
 <use ../vis/fixtures/xg_matchday20.png>
 Package pdftex.def Info: ../vis/fixtures/xg_matchday20.png  used on input line 
 206.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-
-Underfull \vbox (badness 1859) has occurred while \output is active []
-
-<../vis/playerStats/goals_v_xg_linear_fit.png, id=170, 462.528pt x 346.896pt>
+<../vis/playerStats/goals_v_xg_linear_fit.png, id=169, 462.528pt x 346.896pt>
 File: ../vis/playerStats/goals_v_xg_linear_fit.png Graphic file (type png)
 <use ../vis/playerStats/goals_v_xg_linear_fit.png>
 Package pdftex.def Info: ../vis/playerStats/goals_v_xg_linear_fit.png  used on 
 input line 220.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-<../vis/playerStats/goals_v_xg_residuals.png, id=171, 462.528pt x 346.896pt>
+<../vis/playerStats/goals_v_xg_residuals.png, id=170, 462.528pt x 346.896pt>
 File: ../vis/playerStats/goals_v_xg_residuals.png Graphic file (type png)
 <use ../vis/playerStats/goals_v_xg_residuals.png>
 Package pdftex.def Info: ../vis/playerStats/goals_v_xg_residuals.png  used on i
 nput line 226.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-
-Underfull \vbox (badness 7522) has occurred while \output is active []
-
- [8 <../vis/tables/average_xg_pergame_newaxis.png> <../vis/fixtures/xg_matchday
-20.png> <../vis/playerStats/goals_v_xg_linear_fit.png>]
-<../vis/playerStats/nation_bar.png, id=186, 462.528pt x 346.896pt>
+<../vis/playerStats/nation_bar.png, id=172, 462.528pt x 346.896pt>
 File: ../vis/playerStats/nation_bar.png Graphic file (type png)
 <use ../vis/playerStats/nation_bar.png>
 Package pdftex.def Info: ../vis/playerStats/nation_bar.png  used on input line 
 236.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-<../vis/playerStats/nation_pie.png, id=189, 462.528pt x 346.896pt>
+ [8 <../vis/tables/average_xg_pergame_newaxis.png> <../vis/fixtures/xg_matchday
+20.png>]
+<../vis/playerStats/nation_pie.png, id=190, 462.528pt x 346.896pt>
 File: ../vis/playerStats/nation_pie.png Graphic file (type png)
 <use ../vis/playerStats/nation_pie.png>
 Package pdftex.def Info: ../vis/playerStats/nation_pie.png  used on input line 
 244.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
-<../vis/playerStats/nation_rank.png, id=191, 462.528pt x 346.896pt>
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [9 <../vis/playerStats/goals_v_xg_linear_fit.png> <../vis/playerStats/goals_v_
+xg_residuals.png> <../vis/playerStats/nation_bar.png> <../vis/playerStats/natio
+n_pie.png>]
+<../vis/playerStats/nation_rank.png, id=202, 462.528pt x 346.896pt>
 File: ../vis/playerStats/nation_rank.png Graphic file (type png)
 <use ../vis/playerStats/nation_rank.png>
 Package pdftex.def Info: ../vis/playerStats/nation_rank.png  used on input line
  252.
 (pdftex.def)             Requested size: 229.87749pt x 172.4101pt.
- [9 <../vis/playerStats/goals_v_xg_residuals.png> <../vis/playerStats/nation_ba
-r.png> <../vis/playerStats/nation_pie.png>]
+
 Underfull \hbox (badness 3088) in paragraph at lines 261--262
 []\OT1/cmr/m/n/12 I found that in-creased at-ten-dance in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 \TS1/cmr/m/n/12 <\OT1/cmr/m/n/12 https://github.com/ellenleahy95/
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[10 <../vis/playerStats/nation_rank.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 []\OT1/cmr/m/n/12 FBref, 2023, \OT1/cmr/m/it/12 Squad Stan-dard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \OT1/cmr/m/it/12 Stats\OT1/cmr/m/n/12 , De-cem-ber 11, 2022,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \OT1/cmr/m/n/12 2022/stats/2021-2022-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \OT1/cmr/m/n/12 Womens-Super-League-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []\OT1/cmr/m/n/12 FBref, 2023, \OT1/cmr/m/it/12 Squad Stan-dard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/cmr/m/it/12 Stats\OT1/cmr/m/n/12 , De-cem-ber 11, 2022,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/cmr/m/n/12 2022/schedule/2021-2022-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \OT1/cmr/m/n/12 Womens-Super-League-Scores-and-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 []\OT1/cmr/m/n/12 FBref, 2023, \OT1/cmr/m/it/12 Squad Stan-dard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \OT1/cmr/m/it/12 Stats\OT1/cmr/m/n/12 , De-cem-ber 11, 2022,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \OT1/cmr/m/n/12 2022/stats/2021-2022-Womens-Super-
  []
 
-[10 <../vis/playerStats/nation_rank.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 []\OT1/cmr/m/n/12 Transfrmarkt, 2023, \OT1/cmr/m/it/12 Used For-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 \OT1/cmr/m/it/12 eign Play-ers\OT1/cmr/m/n/12 , Jan-uary 11, 2023,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 \TS1/cmr/m/n/12 <[][]\OT1/cmtt/m/n/12 https://www.transfermarkt.com/
  []
 
 
-Overfull \hbox (10.40015pt too wide) in paragraph at lines 277--278
+Overfull \hbox (10.40015pt too wide) in paragraph at lines 279--280
 []\OT1/cmtt/m/n/12 premier-league/legionaereeinsaetze/
  []
 
 
-Overfull \hbox (1.48456pt too wide) in paragraph at lines 277--278
+Overfull \hbox (1.48456pt too wide) in paragraph at lines 279--280
 []\OT1/cmtt/m/n/12 wettbewerb/GB1/plus/1?option=[]\OT1/cmr/m/n/12 spiele
  []
 
 
-Overfull \hbox (16.57515pt too wide) in paragraph at lines 277--278
+Overfull \hbox (16.57515pt too wide) in paragraph at lines 279--280
 [][]\OT1/cmtt/m/n/12 &saison\_id=2021\=&altersklasse=alle
  []
 
@@ -678,11 +679,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  11066 strings out of 478268
  181583 string characters out of 5846348
- 480719 words of memory out of 5000000
+ 481971 words of memory out of 5000000
  29088 multiletter control sequences out of 15000+600000
  476234 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,1077b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,8n,63p,1078b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -698,7 +699,7 @@ live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on report.pdf (11 pages, 715526 bytes).
+Output written on report.pdf (11 pages, 711523 bytes).
 PDF statistics:
  289 PDF objects out of 1000 (max. 8388607)
  209 compressed objects within 3 object streams

@@ -21,7 +21,7 @@ def chart_colours(N):
 ############### 
 # Chart: Goals scored v minutes, coloured by position
 # get unique list of positions
-positions = pl['Pos'].unique()
+positions = pl['Pos'][pl['Pos'].notna()].unique()
 
 # generate the correct number of colours
 colors = chart_colours(len(positions))
@@ -55,7 +55,7 @@ frwrds = pl[(pl['Pos'] == "FW") & (pl['Gls Overall'] > 0) & (pl['Min'] > 0)]
 # plot with colour red for consistency with previous chart
 plt.scatter(frwrds["Min"], frwrds["Gls Overall"], c='r')
 
-plt.title('Minutes Played v Goals Scored For Forwards')
+plt.title('Minutes Played v Goals Scored By Forwards')
 plt.xlabel("Minutes Played")
 plt.ylabel('Total Goals Scored in The Season')
 
@@ -89,7 +89,7 @@ top_scorers = scorers.set_index('Player').drop(['Gls and Ast'], axis=1).head(10)
 top_scorers.rename(columns = {'Gls Overall':'Goals', 'Ast Overall':'Assists'}, inplace = True)
 
 # plot goals and assists on a horizontal barchart
-ax = top_scorers.plot.barh(stacked=True, title="Top 10 Scorers In the WSL", color=['red','black'])
+ax = top_scorers.plot.barh(stacked=True, title="Top 10 Players In the WSL", color=['red','black'])
 ax.set_xlabel('Goals and Assists')
 # rotate and resize y ticks to make easier to read
 plt.yticks(rotation=45, fontsize=6.5)
@@ -116,7 +116,7 @@ scorers.sort_values(by=['Gls and Ast'], inplace=True, ascending=False)
 top_scorers = scorers.set_index('Player').drop(['Gls and Ast', 'Gls Overall', 'Ast Overall', 'season'], axis=1).head(10)
 
 # plot as above
-ax = top_scorers.plot.barh(stacked=True, title="Top 10 Scorers In the WSL Per Season", color=['red','black'])
+ax = top_scorers.plot.barh(stacked=True, title="Top 10 Players In the WSL Per Season", color=['red','black'])
 ax.set_xlabel('Goals and Assists')
 plt.yticks(rotation=45, fontsize=6.5)
 plt.gca().invert_yaxis()
@@ -163,6 +163,9 @@ nat_pie = nat.groupby('Nation').sum().reset_index()
 
 # create pie chart, with no legend and % of each slice on chart
 nat_pie.set_index('Nation').plot.pie(y='Player', legend=None, colors=['lightblue', 'lightcoral'], autopct='%1.1f%%')
+
+
+plt.ylabel('')
 
 plt.savefig('../vis/playerStats/nation_pie.png')
 plt.close()
@@ -239,8 +242,8 @@ plt.hist(gls_xg['Gls Overall']-yfit)
 chi_squared = np.sum(((yfit - gls_xg['Gls Overall']) ** 2)/yfit)/(len(yfit) - 1)
 
 # add reduced chi square value to chart
-label = "Reduced Chi Squared = " + str(round(chi_squared,4))
-plt.figtext(.6, .8, label)
+label = "Reduced Chi Square = " + str(round(chi_squared,4))
+plt.figtext(.48, .8, label)
 
 plt.title('Residuals for Linear Fit')
 plt.xlabel("Residual value")

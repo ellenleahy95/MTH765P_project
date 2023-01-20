@@ -121,7 +121,9 @@ tables["Att per thousand"] = tables['Attendance']/1000
 # generate boxplot so each box shows range of attendance per season
 ax = tables.boxplot(column=['Att per thousand'], by=['season'])
 
-plt.title('Average Attendance Per Team Per Season')
+ax.set_title('Average Attendance Across Teams Per Season')
+# this line removes the automatic boxplot title
+plt.suptitle('')
 plt.ylabel("Team's Average Match Attendance (1000)")
 plt.xlabel('Season')
 plt.savefig('../vis/tables/attendance_boxwhisker.png')
